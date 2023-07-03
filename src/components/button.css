@@ -1,0 +1,48 @@
+.onipkg__button {
+    font-family: 'Nunito Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    border: 0;
+    border-radius: 12px;
+    cursor: pointer;
+    display: inline-block;
+    line-height: 1;
+    padding: 10px 16px;
+}
+
+.onipkg__button-primary {
+    color: white;
+    background-color: #2892D7;
+}
+
+.onipkg__button-secondary {
+    color: white;
+    background-color: #c2b9ba;
+}
+
+.onipkg__button-success {
+    color: white;
+    background-color: #98CE00;
+}
+
+.onipkg__button-warning {
+    color: white;
+    background-color: #F49F0A;
+}
+
+.onipkg__button-error {
+    color: white;
+    background-color: #A40606;
+}
+
+.onipkg__button-primary.onipkg__outline {
+    color: #2892D7;
+    background-color: transparent;
+    border: solid 1px #2892D7;
+}
+
+.onipkg__button-secondary.onipkg__outline {
+    color: #D4C5C7;
+    background-color: transparent;
+    border: solid 1px #D4C5C7;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 0px 1px inset;
+}
